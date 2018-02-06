@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Landing page</title>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa:400,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <style>
+      body {
+  overflow-x: hidden;
+  overflow-style: none;
+}
+.logocon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #e61919;
+  animation: color 30s linear infinite;
+  user-select: none;
+  position: absolute;
+  z-index: 3;
+}
+.menu {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 50px;
+  background: rgba(0,0,0,0.85);
+  color: #ccc;
+  text-align: center;
+  line-height: 50px;
+  font: 300 32px Comfortaa;
+}
+a {
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 30px;
+  font-family: Comfortaa;
+  color: #f39;
+  transition: background 0.3s;
+}
+a:hover {
+  background: #f39;
+  color: #fff;
+  border: 0;
+}
+.logo {
+  font: 300 150px Comfortaa;
+  color: #fff;
+  cursor: default;
+}
+.hint {
+  position: fixed;
+  z-index: 4;
+  bottom: 10vh;
+  width: 100vw;
+  text-align: center;
+  color: rgba(255,255,255,0.6);
+  font: 300 30px Comfortaa;
+}
+.content {
+  padding: 30px;
+  position: relative;
+  top: 20vh;
+  height: 50vh;
+  font: 16px Ubuntu;
+}
+.button {
+    text-align: center;
+    z-index: 5;
+          }
+@-moz-keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #80e619;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #7f19e6;
+  }
+  100% {
+    background: #e61919;
+  }
+}
+@-webkit-keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #80e619;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #7f19e6;
+  }
+  100% {
+    background: #e61919;
+  }
+}
+@-o-keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #80e619;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #7f19e6;
+  }
+  100% {
+    background: #e61919;
+  }
+}
+@keyframes color {
+  0% {
+    background: #e61919;
+  }
+  25% {
+    background: #80e619;
+  }
+  50% {
+    background: #19e5e6;
+  }
+  75% {
+    background: #7f19e6;
+  }
+  100% {
+    background: #e61919;
+  }
+}
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  
+<!--cover w/ skrollr values (for example data-100 for styles at 100 pixels scroled)-->
+<div class="logocon" data-0="opacity: 1; display: flex" data-99="opacity: 0; display: none" data-100="display: none">
+  <div class="logo">Team</div>
+</div>
+<div class="hint" data-0="bottom: 10vh" data-100="bottom: -25px">scroll down</div>
+<!--page contents below-->
+<div class="menu">Zifan</div>
+<div class="content">Another take on the landing page covers: "Josh" is Now with another stupid name...</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js'></script>
+
+  
+
+    <script  src="index.js"></script>
+
+
+ <div id="button" class="button"><a href="Chatroom/index.html">Join Chat Now</a></div>
+   
+
+</body>
+</html>
